@@ -53,8 +53,14 @@ table {
 END RESET
 ****************************************/
 body{
-  background: #3f51b5;
+  background-color: #3f51b5;
+}
 
+h1{
+  color: white;
+  text-align: center;
+  font-family: Orbitron, sans-serif;
+  font-size: 6em;
 }
 
 #wrapper{
@@ -65,12 +71,12 @@ body{
 
 
 .game-board{
-  background: #3f51b5;
+  background-color: #3f51b5;
 
 }
 
 .game-tile{
-  color: #7986cb;
+  background-color: #7986cb;
 
 
 }
@@ -78,7 +84,7 @@ body{
 .game-card{
   width: 200px;
   height: 200px;
-  color: #7986cb;
+  background-color: #7986cb;
 
 }
 
@@ -90,11 +96,16 @@ body{
 
 }
 
-input
+
 
 
 #box1{
   width: 200px;
   height: 200px;
+
+}
+
+.button{
+  left: 15px;
 
 }
