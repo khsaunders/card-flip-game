@@ -54,19 +54,31 @@ END RESET
 ****************************************/
 body{
   background: #3f51b5;
+
 }
+
+#wrapper{
+  border: 10px solid red;
+  width: 1000px;
+  margin: auto;
+}
+
+
 .game-board{
   background: #3f51b5;
 
 }
 
 .game-tile{
-  background: #7986cb;
+  color: #7986cb;
 
 
 }
 
 .game-card{
+  width: 200px;
+  height: 200px;
+  color: #7986cb;
 
 }
 
@@ -74,8 +86,15 @@ body{
 
 }
 
-#wrapper{
-  color: red;
-  width: 300px;
-  margin:auto;;
+.input{
+
+}
+
+input
+
+
+#box1{
+  width: 200px;
+  height: 200px;
+
 }
