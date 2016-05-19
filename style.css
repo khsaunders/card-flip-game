@@ -64,7 +64,7 @@ h1{
 }
 
 #wrapper{
-  border: 10px solid red;
+  border: 10px solid #3f51b5;
   width: 1000px;
   margin: auto;
 }
@@ -76,8 +76,9 @@ h1{
 }
 
 .game-tile{
-  background-color: red;
-  border: 200px
+  left: 50px;
+  right: 20px;
+  color: white;
 
 
 }
@@ -93,22 +94,23 @@ h1{
 
 }
 
-.input{
-
-}
-
-
-
-
-#box1{
+input{
   width: 200px;
   height: 200px;
 
 }
 
+
+
+
+#cbox{
+/*  display:none;*/
+  border: 5px solid red;
+}
+
 .checkbox{
-  border: 200px
   left: 15px;
+  display: none;
 
 }
 
@@ -116,4 +118,11 @@ input:checked + game-card{
   width: 200px;
   height: 200px;
   background-color: #BCC1DD;
+  transform: rotateY(180deg);
+}
+
+.fa-taxi{
+  border: 5px solid red;
+  padding: 50px;
+
 }
