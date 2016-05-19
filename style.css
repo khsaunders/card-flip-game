@@ -76,7 +76,8 @@ h1{
 }
 
 .game-tile{
-  background-color: #7986cb;
+  background-color: red;
+  border: 200px
 
 
 }
@@ -105,7 +106,14 @@ h1{
 
 }
 
-.button{
+.checkbox{
+  border: 200px
   left: 15px;
 
+}
+
+input:checked + game-card{
+  width: 200px;
+  height: 200px;
+  background-color: #BCC1DD;
 }
