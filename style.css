@@ -80,6 +80,9 @@ h1{
   height: 200px;
   color: white;
   border: 1px solid green;
+	font-size: 2em;
+	display: inline-block;
+	border-radius: 15px
 
 }
 
@@ -87,6 +90,7 @@ h1{
   width: 200px;
   height: 200px;
   background-color: #7986cb;
+	border-radius: 15px
 
 }
 
@@ -98,11 +102,10 @@ input{
 }
 
 
-
-
 #cbox{
- display:none;
+  display:none;
   border: 5px solid white;
+
 }
 
 .checkbox{
@@ -119,7 +122,7 @@ input:checked + .game-tile{
 }
 
 .fa-taxi{
-  border: 5px solid red;
-  padding: 50px;
+  border: 1px solid red;
+  padding: 88px;
 
 }
