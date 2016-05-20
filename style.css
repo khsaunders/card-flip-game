@@ -67,6 +67,7 @@ h1{
   border: 10px solid #3f51b5;
   width: 1000px;
   margin: auto;
+	perspective: 800px;
 }
 
 
@@ -78,33 +79,33 @@ h1{
 .game-tile{
   width:200px;
   height: 200px;
-  color: white;
-  border: 1px solid green;
 	font-size: 2em;
 	display: inline-block;
 	border-radius: 15px
 
+
 }
 
-.game-card{
+#card{
   width: 200px;
   height: 200px;
   background-color: #7986cb;
-	border-radius: 15px
+	border-radius: 15px;
+	transition-delay: 2s
 
 }
-
 
 input{
   width: 200px;
   height: 200px;
+
 
 }
 
 
 #cbox{
   display:none;
-  border: 5px solid white;
+  border: 5px solid green;
 
 }
 
@@ -115,14 +116,20 @@ input{
 }
 
 input:checked + .game-tile{
-  width: 200px;
+	width: 200px;
   height: 200px;
-  background-color: #A0A7CE;
-  transform: rotateY(180deg);
+  background-color: white; transition-delay: 2s;
+	transform: rotateY(180deg);
+	transition: transform 2s;
 }
 
 .fa-taxi{
   border: 1px solid red;
-  padding: 88px;
+  padding: 82px;
+	display: inline-block;
+	border-radius: 15px;
+	color: #7986cb;
+	backface-visibility: hidden;
+
 
 }
