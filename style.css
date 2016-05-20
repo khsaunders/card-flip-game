@@ -81,7 +81,10 @@ h1{
   height: 200px;
 	font-size: 2em;
 	display: inline-block;
-	border-radius: 15px
+	border-radius: 15px;
+	background-color: red;
+	transition: background 1s, transform 1s;
+
 
 
 }
@@ -89,10 +92,8 @@ h1{
 #card{
   width: 200px;
   height: 200px;
-  background-color: #7986cb;
+  color: white;
 	border-radius: 15px;
-	transition-delay: 2s
-
 }
 
 input{
@@ -118,10 +119,11 @@ input{
 input:checked + .game-tile{
 	width: 200px;
   height: 200px;
-  background-color: white; transition-delay: 2s;
+  color: #7986cb;
 	transform: rotateY(180deg);
-	transition: transform 2s;
+		background: white;
 }
+
 
 .fa-taxi{
   border: 1px solid red;
@@ -129,7 +131,6 @@ input:checked + .game-tile{
 	display: inline-block;
 	border-radius: 15px;
 	color: #7986cb;
-	backface-visibility: hidden;
 
 
 }
