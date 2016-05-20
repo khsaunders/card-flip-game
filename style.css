@@ -76,18 +76,34 @@ h1{
 
 }
 
+.time{
+	color: white;
+	font-family: Arial;
+	text-align: right;
+	padding-right: 170px;
+}
+
+.hearts{
+	color: white;
+	padding-bottom: 70px;
+	padding-left: 100px;
+}
+
 .game-tile{
   width:200px;
   height: 200px;
 	font-size: 2em;
 	display: inline-block;
 	border-radius: 15px;
-	background-color: red;
+	background-color: #7986cb;
 	transition: background 1s, transform 1s;
 
-
-
 }
+
+li{
+	list-style: none;
+}
+
 
 #card{
   width: 200px;
@@ -126,7 +142,6 @@ input:checked + .game-tile{
 
 
 .fa-taxi{
-  border: 1px solid red;
   padding: 82px;
 	display: inline-block;
 	border-radius: 15px;
