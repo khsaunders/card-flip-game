@@ -10,7 +10,8 @@
   <body>
     <div id = "wrapper">
 
-<!--game board--> <!--will need to put ID in front of class for life-hearts-->
+<!--game board-->
+<!--will need to put ID in front of class for life-hearts-->
     <h1>Mem<i class="fa fa-lightbulb-o" aria-hidden="true"></i>ry</h1>
     <div class = "game-board">
       <div class = "time">
@@ -27,124 +28,146 @@
         <i class="fa fa-heart" aria-hidden="true"></i>
       </div>
 
-<!--game cards-->
-  <ul>
-<!--DO NOT change 'label' to 'div'-->
-      <li>
-      <div class = "card-row1">
-    <!--  <li> -->
+<!--game cards. REMINDER: do not change 'label' to 'div'-->
+<!--first row of cards-->
+
+    <div class = "card-row1">
         <input type = "checkbox" id="cbox1">
-        <label class = "game-card-background" for = "cbox1">
-        <i class="fa fa-taxi" aria-hidden="true"></i>
-      </label>
-    </input>
-
-
-        <input type = "checkbox" id="cbox3">
-          <label class = "game-card-background" for = "cbox3">
-          <i class="fa fa-taxi" aria-hidden="true"></i>
-        </label>
-      </input>
-
-          <input type = "checkbox" id="cbox3">
-            <label class = "game-card-background" for = "cbox3">
+          <label class = "game-card-background" for = "cbox1">
             <i class="fa fa-taxi" aria-hidden="true"></i>
           </label>
         </input>
 
-            <input type = "checkbox" id="cbox3">
-              <label class = "game-card-background" for = "cbox3">
-              <i class="fa fa-taxi" aria-hidden="true"></i>
-            </label>
-          </input>
-
-
-          <input type = "checkbox" id="cbox3">
-              <label class = "game-card-background" for = "cbox3">
-              <i class="fa fa-taxi" aria-hidden="true"></i>
-              </label>
-          </input>
-
-      </div>
-    </li>
-    <br>
-      <div class = "card-row2">
-            <input type = "checkbox" id="cbox2">
-              <label class = "game-card-background" for = "cbox2">
-              <i class="fa fa-taxi" aria-hidden="true"></i>
-            </label>
-          </input>
-
-          <input type = "checkbox" id="cbox3">
-            <label class = "game-card-background" for = "cbox3">
-            <i class="fa fa-taxi" aria-hidden="true"></i>
+        <input type = "checkbox" id="cbox1-2">
+          <label class = "game-card-background" for = "cbox1-2">
+            <i class="fa fa-first-order" aria-hidden="true"></i>
           </label>
         </input>
 
-        <input type = "checkbox" id="cbox3">
-          <label class = "game-card-background" for = "cbox3">
-          <i class="fa fa-taxi" aria-hidden="true"></i>
-        </label>
-      </input>
+        <input type = "checkbox" id="cbox1-3">
+          <label class = "game-card-background" for = "cbox1-3">
+            <i class="fa fa-camera" aria-hidden="true"></i>
+          </label>
+        </input>
 
-      <input type = "checkbox" id="cbox3">
-        <label class = "game-card-background" for = "cbox3">
-        <i class="fa fa-taxi" aria-hidden="true"></i>
-      </label>
-    </input>
+        <input type = "checkbox" id="cbox1-4">
+          <label class = "game-card-background" for = "cbox1-4">
+            <i class="fa fa-bolt" aria-hidden="true"></i>
+          </label>
+        </input>
 
-    <input type = "checkbox" id="cbox3">
-      <label class = "game-card-background" for = "cbox3">
-      <i class="fa fa-taxi" aria-hidden="true"></i>
-    </label>
-  </input>
+          <input type = "checkbox" id="cbox1-5">
+            <label class = "game-card-background" for = "cbox1-5">
+              <i class="fa fa-diamond" aria-hidden="true"></i>
+            </label>
+          </input>
+        </div>
+
+<!-- <br> between each row is what gives it the space. don't know if this is too simplistic or poor coding, but it is more manageable than padding.-->
+<!--begin second row of cards-->
+
+      <br>
+        <div class = "card-row2">
+          <input type = "checkbox" id="cbox2">
+            <label class = "game-card-background" for = "cbox2">
+              <i class="fa fa-taxi" aria-hidden="true"></i>
+            </label>
+          </input>
+
+          <input type = "checkbox" id="cbox2-2">
+            <label class = "game-card-background" for = "cbox2-2">
+              <i class="fa fa-taxi" aria-hidden="true"></i>
+            </label>
+          </input>
+
+          <input type = "checkbox" id="cbox2-3">
+            <label class = "game-card-background" for = "cbox2-3">
+              <i class="fa fa-diamond" aria-hidden="true"></i>
+            </label>
+          </input>
+
+          <input type = "checkbox" id="cbox2-4">
+            <label class = "game-card-background" for = "cbox2-4">
+              <i class="fa fa-taxi" aria-hidden="true"></i>
+            </label>
+          </input>
+
+          <input type = "checkbox" id="cbox2-5">
+            <label class = "game-card-background" for = "cbox2-5">
+              <i class="fa fa-taxi" aria-hidden="true"></i>
+            </label>
+          </input>
       </div>
+
+<!--begin third row of cards-->
 
       <br>
       <div class = "card-row3">
-            <input type = "checkbox" id="cbox3">
-              <label class = "game-card-background" for = "cbox3">
+          <input type = "checkbox" id="cbox3">
+            <label class = "game-card-background" for = "cbox3">
               <i class="fa fa-taxi" aria-hidden="true"></i>
             </label>
           </input>
 
-          <input type = "checkbox" id="cbox3">
-            <label class = "game-card-background" for = "cbox3">
+          <input type = "checkbox" id="cbox3-2">
+            <label class = "game-card-background" for = "cbox3-2">
+              <i class="fa fa-taxi" aria-hidden="true"></i>
+          </label>
+        </input>
+
+        <input type = "checkbox" id="cbox3-3">
+          <label class = "game-card-background" for = "cbox3-3">
             <i class="fa fa-taxi" aria-hidden="true"></i>
           </label>
         </input>
 
-        <input type = "checkbox" id="cbox3">
-          <label class = "game-card-background" for = "cbox3">
+        <input type = "checkbox" id="cbox3-4">
+          <label class = "game-card-background" for = "cbox3-4">
           <i class="fa fa-taxi" aria-hidden="true"></i>
-        </label>
-      </input>
+          </label>
+        </input>
 
-      <input type = "checkbox" id="cbox3">
-        <label class = "game-card-background" for = "cbox3">
-        <i class="fa fa-taxi" aria-hidden="true"></i>
-      </label>
-    </input>
-
-    <input type = "checkbox" id="cbox3">
-      <label class = "game-card-background" for = "cbox3">
-      <i class="fa fa-taxi" aria-hidden="true"></i>
-    </label>
-  </input>
+        <input type = "checkbox" id="cbox3-5">
+          <label class = "game-card-background" for = "cbox3-5">
+          <i class="fa fa-first-order" aria-hidden="true"></i>
+          </label>
+        </input>
       </div>
-      
-      <br>
-      <div class ="card-row4"
-      <input type = "checkbox" id="cbox3">
-        <label class = "game-card-background" for = "cbox3">
-        <i class="fa fa-taxi" aria-hidden="true"></i>
-      </label>
-    </input>
 
+    <!--begin third row of cards-->
 
+    <br>
 
+      <div class ="card-row4">
+        <input type = "checkbox" id="cbox4">
+          <label class = "game-card-background" for = "cbox4">
+            <i class="fa fa-camera" aria-hidden="true"></i>
+          </label>
+        </input>
 
+        <input type = "checkbox" id="cbox4-2">
+          <label class = "game-card-background" for = "cbox4-2">
+            <i class="fa fa-taxi" aria-hidden="true"></i>
+          </label>
+        </input>
 
+        <input type = "checkbox" id="cbox4-3">
+          <label class = "game-card-background" for = "cbox4-3">
+            <i class="fa fa-taxi" aria-hidden="true"></i>
+          </label>
+        </input>
+
+        <input type = "checkbox" id="cbox4-4">
+          <label class = "game-card-background" for = "cbox4-4">
+            <i class="fa fa-taxi" aria-hidden="true"></i>
+          </label>
+        </input>
+
+        <input type = "checkbox" id="cbox4-5">
+          <label class = "game-card-background" for = "cbox4-5">
+            <i class="fa fa-bolt" aria-hidden="true"></i>
+          </label>
+        </input>
 
 
     </div>

@@ -108,51 +108,123 @@ li{
 .card-row1{
   color: #7986cb;
 	border-radius: 15px;
-	padding-left: 15px;
+	padding-left: 50px;
 }
 
 .card-row2{
   color: #7986cb;
 	border-radius: 15px;
-	padding-left: 15px;
+	padding-left: 50px;
 }
 
 .card-row3{
   color: #7986cb;
 	border-radius: 15px;
-	padding-left: 15px;
+	padding-left: 50px;
 }
 
 .card-row4{
   color: #7986cb;
 	border-radius: 15px;
-	padding-left: 15px;
+	padding-left: 50px;
 }
 
 
 input{
   width: 200px;
   height: 200px;
-	border: red;
-
 
 }
 
+/* row 1 card IDs */
 
 #cbox1{
   display:none;
-
 }
+
+#cbox1-2{
+  display:none;
+}
+
+#cbox1-3{
+  display:none;
+}
+
+#cbox1-4{
+  display:none;
+}
+
+#cbox1-5{
+  display:none;
+}
+
+/* row 2 card ID's */
 
 #cbox2{
   display:none;
-
 }
+
+#cbox2-2{
+  display:none;
+}
+
+#cbox2-3{
+  display:none;
+}
+
+#cbox2-4{
+  display:none;
+}
+
+#cbox2-5{
+  display:none;
+}
+
+/* row 3 card ID's */
 
 #cbox3{
   display:none;
-
 }
+
+#cbox3-2{
+  display:none;
+}
+
+#cbox3-3{
+  display:none;
+}
+
+#cbox3-4{
+  display:none;
+}
+
+#cbox3-5{
+  display:none;
+}
+
+/* row 4 card ID's */
+
+#cbox4{
+	display:none;
+}
+
+#cbox4-2{
+	display:none;
+}
+
+#cbox4-3{
+	display:none;
+}
+
+#cbox4-4{
+	display:none;
+}
+
+
+#cbox4-5{
+	display:none;
+}
+
 
 .checkbox{
   left: 15px;
@@ -175,6 +247,34 @@ input:checked + .game-card-background{
 	border-radius: 15px;
 	color: #7986cb;
 
+}
+
+.fa-first-order{
+	padding: 82px;
+	display: inline-block;
+	border-radius: 15px;
+	color: #7986cb;
+}
+
+.fa-camera{
+	padding: 82px;
+	display: inline-block;
+	border-radius: 15px;
+	color: #7986cb;
+}
+
+.fa-bolt{
+	padding: 82px;
+	display: inline-block;
+	border-radius: 15px;
+	color: #7986cb;
+}
+
+.fa-diamond{
+	padding: 82px;
+	display: inline-block;
+	border-radius: 15px;
+	color: #7986cb;
 }
 
 /*------- styles for index page-------*/
