@@ -67,7 +67,6 @@ h1{
   border: 10px solid #3f51b5;
   width: 1000px;
   margin: auto;
-	perspective: 800px;
 }
 
 
@@ -96,7 +95,7 @@ h1{
 	display: inline-block;
 	border-radius: 15px;
 	background-color: #7986cb;
-	transition: background 1s, transform 1s;
+	transition: background .2s, transform 1s;
 
 }
 
@@ -105,16 +104,18 @@ li{
 }
 
 
-#card{
+#card-row1{
   width: 200px;
   height: 200px;
-  color: white;
+  color: #7986cb ;
 	border-radius: 15px;
+	padding: 15px;
 }
 
 input{
   width: 200px;
   height: 200px;
+	border: red;
 
 
 }
@@ -147,5 +148,39 @@ input:checked + .game-tile{
 	border-radius: 15px;
 	color: #7986cb;
 
+}
+
+/*------- styles for index page-------*/
+#wrapper2{
+	border: 10px solid #3f51b5;
+	width: 550px;
+	margin: auto;
+}
+
+.spacer{
+	height: 200px;
+}
+
+.select-mode{
+	shadow: 2px;
+	background-color:#7986cb;
+	width: 200px;
+	height: 50px;
+	border: white 2px;
+	font-family: Arial;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+}
+
+#easybtn{
 
 }
+
+input:checked + .clicked-box{
+	width: 200px;
+  height: 200px;
+  color: white;
+	background-color: white;
