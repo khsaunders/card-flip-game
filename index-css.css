@@ -1,0 +1,115 @@
+/**********************************
+CSS RESET
+**********************************/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/****************************************
+END RESET
+****************************************/
+
+/*------- styles for index page-------*/
+body{
+	background-color: #348b9e;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: Orbitron, sans-serif;
+  font-size: 6em;
+}
+
+#wrapper2{
+	border: 10px solid #348b9e;
+	width: 550px;
+	margin: auto;
+}
+
+.spacer{
+	height: 200px;
+	background-color: #348b9e;
+}
+
+.select-mode{
+	shadow: 2px;
+	background-color:#348b9e;
+	border-right: 4px white soild;
+	border-left: 3px white solid;
+	height: 50px;
+	border: white 2px solid;
+	font-family: Orbitron;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	margin: 15px;
+
+	/* I tried this approach out as it was something that had popped up in a few different resources for trapezoids, but I couldn't find a way to make it..."hollow" I guess. Maybe I need some kind of border within a border?
+	border-bottom: 100px solid white;
+	border-left: 5px solid transparent;
+	border-right: 70px solid transparent;
+	height: 0;
+	width: 400px;
+
+*/
+}
+
+
+#btn{
+display: none;
+
+}
+
+a{
+	color: white;
+	decoration: none;
+	text-decoration: none;
+	width: 200px;
+	height: 50px;
+}
