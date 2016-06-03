@@ -1,0 +1,120 @@
+/**********************************
+CSS RESET
+**********************************/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/****************************************
+END RESET
+****************************************/
+
+body{
+  background-color: #3f51b5;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: Orbitron, sans-serif;
+  font-size: 6em;
+}
+
+#wrapper{
+  border: 10px solid #3f51b5;
+  width: 1200px;
+  margin: auto;
+	padding: 15px;
+}
+
+/*somehow tied to the lightbulb in title */
+.game-board{
+  background-color: #3f51b5;
+  border: red 2px solid;
+}
+
+.hearts{
+	color: white;
+	padding-bottom: 70px;
+	padding-left: 100px;
+}
+
+.card{
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: #7986cb;
+  transition: background 1.2s, transform 1s;
+  transform:rotateY(180deg) white ;
+  border-style: none;
+  outline: none;
+}
+
+.flipped{
+  width: 200px;
+  height: 200px;
+  color: #7986cb;
+  transform: rotateY(180deg);
+  background-color: white;
+}
+
+
+
+.fa{
+  opacity: 0;
+  transition: transform 1s;
+  font-size: 50px;
+  color: #3f51b5;
+  border: solid red 2px;
+}
+
+/*.card-row1{
+  color: #7986cb;
+	border-radius: 15px;
+	padding-left: 50px;
+  border: green 2px solid;
+}*/
