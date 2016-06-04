@@ -92,9 +92,18 @@ h1{
   transform:rotateY(180deg) white ;
   border-style: none;
   outline: none;
+  margin: 20px;
 }
 
 .flipped{
+  width: 200px;
+  height: 200px;
+  color: #7986cb;
+  transform: rotateY(180deg);
+  background-color: white;
+}
+
+.permanent{
   width: 200px;
   height: 200px;
   color: #7986cb;

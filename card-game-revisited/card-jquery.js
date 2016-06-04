@@ -45,13 +45,25 @@ if (track === 1){
   $(this).addClass('flipped')
   $(this).children().css('opacity', '1');
   console.log(track);
-}
+  }
 
   else if (track === 2){
   $(this).addClass('flipped')
   $(this).children().css('opacity', '1');
-  console.log(track);
-}
+  console.log(track)
+  }
+});
+
+$('li').click (function(){
+    if ('.fa' === '.fa'){
+    $(this).removeClass('flipped')
+    $(this).addClass('permanent');
+  }
+
+  else {
+    $(this).removeClass('flipped');
+    $(this).childre().css('opacity', '0');
+  }
 });
 
 
