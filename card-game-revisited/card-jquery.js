@@ -41,35 +41,48 @@ var track = 0;
 
 $('li').click (function(){
 track++
-if (track === 1){
+if (track <= 2){
   $(this).addClass('flipped')
   $(this).children().css('opacity', '1');
   console.log(track);
   }
 
-  else if (track === 2){
-  $(this).addClass('flipped')
-  $(this).children().css('opacity', '1');
-  console.log(track)
-  }
+  // else if (track === 2) {
+  // $(this).addClass('flipped')
+  // $(this).children().css('opacity', '1');
+  // console.log(track)
+  // }
+  //
+  // else if ($(this).val() == ($('li').val ())){
+  // $(this).removeClass('flipped')
+  // $(this).addClass('permanent');
+
+else if (track === 2 && ($(this).val() === ($('li').val()))){
+  $(this).removeClass('flipped');
+  $(this).addClass('permanent')
+
+}
+
+else{
+  $(this).removeClass('flipped')
+  $(this).addClass('card')
+  $(this).children().css('opacity', '0');
+}
 });
-
-$('li').click (function(){
-    if ('.fa' === '.fa'){
-    $(this).removeClass('flipped')
-    $(this).addClass('permanent');
-  }
-
-  else {
-    $(this).removeClass('flipped');
-    $(this).childre().css('opacity', '0');
-  }
-});
-
-
+// });
+//
+//
+// $('li').click (function(){
+//
+//     if ($(this).val() == ($('li').val ()){
+//     $(this).removeClass('flipped')
+//     $(this).addClass('permanent');
+// }
+//   else {
+//     $(this).removeClass('flipped');
+//     $(this).childre().css('opacity', '0');
+//   }
+// });
 
 var hi = 'hello'
 console.log(hi);
-
-
-//Captain's Log: 16:25, 2016-06-02. I don't know how I can name and single out icons without making an unbelievable amount of code. Like for the X amount of pairs I have, it would become really overwhelming.
