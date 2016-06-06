@@ -58,29 +58,42 @@ body{
 }
 
 h1{
+  opacity: 1;
   color: white;
   text-align: center;
   font-family: Orbitron, sans-serif;
   font-size: 6em;
 }
 
+.hearts{
+  opacity: 1;
+}
+
+
+#time-count{
+  font-family: sans-serif;
+  color: white;
+}
+
 #wrapper{
   border: 10px solid #3f51b5;
   width: 1200px;
-  margin: auto;
-	padding: 15px;
 }
 
-/*somehow tied to the lightbulb in title */
 .game-board{
   background-color: #3f51b5;
-  border: red 2px solid;
+  border: 2px red solid;
 }
 
 .hearts{
 	color: white;
 	padding-bottom: 70px;
 	padding-left: 100px;
+}
+
+ul{
+  display: inline-block;
+  padding-left: 30px;
 }
 
 .card{
@@ -117,12 +130,5 @@ h1{
   transition: transform 1s;
   font-size: 50px;
   color: #3f51b5;
-  border: solid red 2px;
+  margin: 75px;
 }
-
-/*.card-row1{
-  color: #7986cb;
-	border-radius: 15px;
-	padding-left: 50px;
-  border: green 2px solid;
-}*/
